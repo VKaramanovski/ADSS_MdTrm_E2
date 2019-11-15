@@ -21,8 +21,6 @@ namespace ADSS_MdTrm_E2
                 {
                     value = numInRow % 2; 
                     Console.Write(value);
-                  
-
                 }
                 count++;
 

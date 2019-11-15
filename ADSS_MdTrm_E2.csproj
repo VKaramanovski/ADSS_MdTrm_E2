@@ -5,4 +5,14 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="ADSS_MdTrm_E3\obj\ADSS_MdTrm_E3.csproj.nuget.cache" />
+    <None Remove="ADSS_MdTrm_E3\obj\Debug\netcoreapp3.0\ADSS_MdTrm_E3.csprojAssemblyReference.cache" />
+    <None Remove="ADSS_MdTrm_E3\obj\project.assets.json" />
+    <None Remove="ADSS_MdTrm_E3\obj\ADSS_MdTrm_E3.csproj.nuget.g.targets" />
+    <None Remove="ADSS_MdTrm_E3\obj\Debug\netcoreapp3.0\ADSS_MdTrm_E3.assets.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="ADSS_MdTrm_E3\Program.cs" />
+  </ItemGroup>
 </Project>
